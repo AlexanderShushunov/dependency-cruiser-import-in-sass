@@ -1,0 +1,26 @@
+{
+  "forbidden": [
+    {
+      "name": "no-non-package-json",
+      "severity": "error",
+      "comment": "because an npm i --production will otherwise deliver an unreliably running package",
+      "from": { "pathNot": "^(node_modules)" },
+      "to": {
+        "dependencyTypes": ["unknown", "undetermined", "npm-no-pkg", "npm-unknown"]
+      }
+    }
+  ],
+  "options": {
+    "doNotFollow": {
+      "dependencyTypes": [
+        "npm",
+        "npm-dev",
+        "npm-no-pkg",
+        "npm-unknown"
+      ]
+    },
+    "webpackConfig": {
+      "fileName": "./config/webpack.config.dev.js"
+    }
+  }
+}
