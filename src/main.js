@@ -2,9 +2,9 @@
 import Vue from 'vue';
 
 // Import Vue App, routes, store
-import AppHome from 'src/components/AppHome';
+import Usage from 'src/components/Usage';
 
 new Vue({
     el: '#app',
-    render: h => h(AppHome)
+    render: h => h(Usage)
 });

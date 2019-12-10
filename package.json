@@ -1,7 +1,7 @@
 {
-  "name": "dependency-cruiser-import-in-sass",
+  "name": "dependency-cruiser-vue-sfc",
   "version": "1.0.0",
-  "description": "Example project for https://github.com/sverweij/dependency-cruiser/issues/220",
+  "description": "Example project for https://github.com/sverweij/dependency-cruiser/issues/220. It helps check, how dependency-cruiser works with vue sfc.",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --progress",
     "staging": "cross-env NODE_ENV=staging webpack",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:AlexanderShushunov/dependency-cruiser-import-in-sass.git"
+    "url": "git@github.com:AlexanderShushunov/dependency-cruiser-vue-sfc.git"
   },
   "keywords": [
     "dependency-cruiser",
@@ -37,7 +37,7 @@
     "compression-webpack-plugin": "~2.0",
     "cross-env": "~5.2",
     "css-loader": "~2.1",
-    "dependency-cruiser": "^5.4.0",
+    "dependency-cruiser": "5.6.0-beta-0",
     "eslint": "~5.16",
     "eslint-config-standard": "~10.2",
     "eslint-friendly-formatter": "~3.0",

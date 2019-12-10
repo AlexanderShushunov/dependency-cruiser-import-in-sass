@@ -8,6 +8,17 @@
       "to": {
         "dependencyTypes": ["unknown", "undetermined", "npm-no-pkg", "npm-unknown"]
       }
+    },
+    {
+      "name": "no-forbidden-module",
+      "severity": "error",
+      "comment": "forbidden-module is forbidden )",
+      "from": {
+        "path": "^src/components"
+      },
+      "to": {
+        "path": "^src/forbidden-module"
+      }
     }
   ],
   "options": {
